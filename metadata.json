@@ -1,0 +1,6 @@
+{
+  "name": "PaisaPilot.in",
+  "description": "The ultimate SEO-optimized and highly converting EMI Calculator dashboard for India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

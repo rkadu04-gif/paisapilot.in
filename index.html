@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Single Page Apps for GitHub Pages Routing Handler -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location));
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>PaisaPilot - Indian Credit Cards, SIP & EMI Calculators</title>
+    <meta name="description" content="PaisaPilot is India's premier financial platform. Calculate Home Loans, Personal Loans, SIP compound interest, and discover the highest-rewarding credit cards with direct application benefits." />
+    <meta name="keywords" content="PaisaPilot, credit cards india, SIP calculator, EMI calculator, IDFC SWYP credit card, Axis MyZone Rupay, Axis Indian Oil Rupay, home loan calculator, personal loan calculator india" />
+    <meta name="author" content="PaisaPilot" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://paisapilot.in" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://paisapilot.in/" />
+    <meta property="og:title" content="PaisaPilot - Indian Credit Cards, SIP & EMI Calculators" />
+    <meta property="og:description" content="Calculate Home Loans, Personal Loans, SIP compound interest, and discover the highest-rewarding credit cards with direct application benefits." />
+    <meta property="og:image" content="https://paisapilot.in/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://paisapilot.in/" />
+    <meta property="twitter:title" content="PaisaPilot - Indian Credit Cards, SIP & EMI Calculators" />
+    <meta property="twitter:description" content="Calculate Home Loans, Personal Loans, SIP compound interest, and discover the highest-rewarding credit cards with direct application benefits." />
+    <meta property="twitter:image" content="https://paisapilot.in/og-image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23059669%22></rect><text y=%2270%22 x=%2220%22 font-size=%2260%22 font-weight=%22bold%22 fill=%22white%22>+</text><text y=%2270%22 x=%2255%22 font-size=%2260%22 font-weight=%22bold%22 fill=%22white%22>=</text></svg>" />
+
+    <!-- Structured JSON-LD Data for Google Rich Snippets -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FinancialService",
+        "name": "PaisaPilot",
+        "url": "https://paisapilot.in",
+        "logo": "https://paisapilot.in/logo.png",
+        "description": "Premium Indian financial navigation tools, high-accuracy EMI and SIP calculators, and curated credit card recommendations.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "IN"
+        },
+        "potentialAction": {
+          "@type": "CalculateAction",
+          "name": "Calculate EMI & SIP Investments"
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
